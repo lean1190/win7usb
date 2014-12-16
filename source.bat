@@ -10,23 +10,23 @@ REM  Comments:
 REM  Productversion:  0. 0. 0. 0
 REM  Fileversion:  0. 0. 0. 0
 REM  Internalname: 
-REM  Appicon: D:\Mis Documentos\Proyetos\Programaciones\BATCH\WIN7USB\icon.ico
+REM  Appicon: icon.ico
 REM  QBFC Project Options End
 
 @echo off& MODE CON: COLS=58 LINES=13
 color 0f
-title WIN7USB == by leian1306
+title WIN7USB == by leito9008
 set /a entorno=1
 echo.
-echo       ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo       º    BIENVENIDO AL ASISTENTE DE WIN7USB!      º
-echo       ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹
-echo       º                                             º
-echo       º Antes que nada asegurate de tener tu        º
-echo       º memoria USB conectada y tu imagen de        º
-echo       º WINDOWS montada/emulada, o el disco puesto  º
-echo       º                                             º
-echo       ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo       Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo       Âº    BIENVENIDO AL ASISTENTE DE WIN7USB!      Âº
+echo       ÃŒÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¹
+echo       Âº                                             Âº
+echo       Âº Antes que nada asegurate de tener tu        Âº
+echo       Âº memoria USB conectada y tu imagen de        Âº
+echo       Âº WINDOWS montada/emulada, o el disco puesto  Âº
+echo       Âº                                             Âº
+echo       ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 echo 	    Presiona una tecla para comenzar! 
 pause>nul
@@ -35,17 +35,17 @@ title WIN7USB == by leian1306
 cls
 MODE CON: COLS=58 LINES=15
 echo.
-echo       ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo       º Selecciona una opcion:                      º
-echo       ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹
-echo       º                                             º
-echo       º 1. Completo (Preparacion USB + Copia)       º
-echo       º                                             º
-echo       º 2. Parcial (solo Copia de archivos)         º
-echo       º                                             º
-echo       º 3. Salir                                    º
-echo       º                                             º
-echo       ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo       Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo       Âº Selecciona una opcion:                      Âº
+echo       ÃŒÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¹
+echo       Âº                                             Âº
+echo       Âº 1. Completo (Preparacion USB + Copia)       Âº
+echo       Âº                                             Âº
+echo       Âº 2. Parcial (solo Copia de archivos)         Âº
+echo       Âº                                             Âº
+echo       Âº 3. Salir                                    Âº
+echo       Âº                                             Âº
+echo       ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 set /p opc=OPCION ELEGIDA: 
 if '%opc%'=='' goto menu
@@ -58,26 +58,26 @@ MODE CON: COLS=58 LINES=24
 title Seleccion de disco == WIN7USB
 cls
 echo.
-echo       ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo       º                                             º
-echo       º En la siguiente pantalla veras una lista    º
-echo       º con los discos actualmente conectados...    º
-echo       º observa la lista y fijate que numero de     º
-echo       º disco es tu memoria USB.                    º
-echo       º                                             º
-echo       º Por ejemplo:                                º
-echo       º                                             º
-echo       º Num Disco   Estado   Tamano   Disp  Din Gpt º
-echo       º ---------   ------   ------   ----  --- --- º
-echo       º Disco 0   En linea   232GB    1024kb        º
-echo       º Disco 1   En linea   1910MB   0B            º
-echo       º                                             º
-echo       º Si tu memoria es de 2GB seguramente es el   º
-echo       º Disco 1, y el Disco 0 es el HD principal    º
-echo       º                                             º
-echo       º Entonces eliges 1                           º
-echo       º                                             º
-echo       ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo       Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo       Âº                                             Âº
+echo       Âº En la siguiente pantalla veras una lista    Âº
+echo       Âº con los discos actualmente conectados...    Âº
+echo       Âº observa la lista y fijate que numero de     Âº
+echo       Âº disco es tu memoria USB.                    Âº
+echo       Âº                                             Âº
+echo       Âº Por ejemplo:                                Âº
+echo       Âº                                             Âº
+echo       Âº Num Disco   Estado   Tamano   Disp  Din Gpt Âº
+echo       Âº ---------   ------   ------   ----  --- --- Âº
+echo       Âº Disco 0   En linea   232GB    1024kb        Âº
+echo       Âº Disco 1   En linea   1910MB   0B            Âº
+echo       Âº                                             Âº
+echo       Âº Si tu memoria es de 2GB seguramente es el   Âº
+echo       Âº Disco 1, y el Disco 0 es el HD principal    Âº
+echo       Âº                                             Âº
+echo       Âº Entonces eliges 1                           Âº
+echo       Âº                                             Âº
+echo       ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 echo            Presiona una tecla para continuar...
 pause>nul
@@ -90,9 +90,9 @@ MODE CON: COLS=70 LINES=16
 echo>tmpcommands.txt list disk
 diskpart -s tmpcommands.txt
 echo.
-echo   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo   º  === ASEGURATE DE ELEGIR EL NUMERO DE DISCO CORRECTO!!! ===  º
-echo   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo   Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo   Âº  === ASEGURATE DE ELEGIR EL NUMERO DE DISCO CORRECTO!!! ===  Âº
+echo   ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 set /p USB=NUMERO DE DISCO DEL USB: 
 echo.
@@ -104,17 +104,17 @@ MODE CON: COLS=70 LINES=15
 set /a entorno=5
 title Tipo de formateo == WIN7USB
 echo.
-echo   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo   º Elija que tipo de formateo desea realizar:                   º
-echo   ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹
-echo   º                                                              º
-echo   º 1. Formato rapido (solo se borraran los archivos) [+rapido]  º
-echo   º                                                              º
-echo   º 2. Formato normal (tambien se verificara el disco) [+lento]  º
-echo   º                                                              º
-echo   º 3. Salir                                                     º
-echo   º                                                              º
-echo   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo   Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo   Âº Elija que tipo de formateo desea realizar:                   Âº
+echo   ÃŒÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¹
+echo   Âº                                                              Âº
+echo   Âº 1. Formato rapido (solo se borraran los archivos) [+rapido]  Âº
+echo   Âº                                                              Âº
+echo   Âº 2. Formato normal (tambien se verificara el disco) [+lento]  Âº
+echo   Âº                                                              Âº
+echo   Âº 3. Salir                                                     Âº
+echo   Âº                                                              Âº
+echo   ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 set /p opci=OPCION ELEGIDA: 
 echo.
@@ -139,26 +139,26 @@ cls
 echo.
 echo         -------- NUMERO DE DISCO SELECCIONADO : %USB% --------
 echo.
-echo   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo   º                                                              º
-echo   º   ===== EL DISCO SELECCIONADO SERA FORMATEADO!!!!!! =====    º
-echo   º                                                              º
-echo   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo   Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo   Âº                                                              Âº
+echo   Âº   ===== EL DISCO SELECCIONADO SERA FORMATEADO!!!!!! =====    Âº
+echo   Âº                                                              Âº
+echo   ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 echo         ASEGURATE DE HABER SELECCIONADO EL DISCO CORRECTO
 echo    GUARDA TODOS LOS ARCHIVOS IMPORTANTES QUE NO QUIERAS PERDER...
 echo.
-echo   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo   º Selecciona una opcion:                                       º
-echo   ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¹
-echo   º                                                              º
-echo   º 1. COMENZAR A PREPARAR EL USB!!!                             º
-echo   º                                                              º
-echo   º 2. Volver a seleccion de disco                               º
-echo   º                                                              º
-echo   º 3. Salir                                                     º
-echo   º                                                              º
-echo   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo   Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo   Âº Selecciona una opcion:                                       Âº
+echo   ÃŒÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¹
+echo   Âº                                                              Âº
+echo   Âº 1. COMENZAR A PREPARAR EL USB!!!                             Âº
+echo   Âº                                                              Âº
+echo   Âº 2. Volver a seleccion de disco                               Âº
+echo   Âº                                                              Âº
+echo   Âº 3. Salir                                                     Âº
+echo   Âº                                                              Âº
+echo   ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 set /p opci=OPCION ELEGIDA: 
 if '%opci%'=='' goto prep
@@ -185,15 +185,15 @@ set /a MEM=
 set /a LEC=
 cls
 echo.
-echo   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo   º                                                              º
-echo   º           ===== ETAPA DE COPIA DE ARCHIVOS =====             º
-echo   º                                                              º
-echo   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo   Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo   Âº                                                              Âº
+echo   Âº           ===== ETAPA DE COPIA DE ARCHIVOS =====             Âº
+echo   Âº                                                              Âº
+echo   ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
-echo   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo   º                === SELECCION DE LETRAS ===                   º
-echo   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo   Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo   Âº                === SELECCION DE LETRAS ===                   Âº
+echo   ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.       
 echo   1. Seleccion de letra de la memoria USB: [%MEM%]
 echo.       
@@ -333,11 +333,11 @@ MODE CON: COLS=60 LINES=8
 title ERROR! == WIN7USB
 color 0C
 echo.
-echo       ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo       º                                             º
-echo       º  ERROR : debe ingresar una opcion valida!!  º
-echo       º                                             º
-echo       ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo       Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo       Âº                                             Âº
+echo       Âº  ERROR : debe ingresar una opcion valida!!  Âº
+echo       Âº                                             Âº
+echo       ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 ping -n 4 localhost>nul
 color 0f
@@ -353,11 +353,11 @@ MODE CON: COLS=68 LINES=9
 title Listo! == WIN7USB
 cls
 echo.
-echo   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo   º                                                              º
-echo   º   ===== TAREA COMPLETADA! GRACIAS POR USAR WIN7USB! =====    º
-echo   º                                                              º
-echo   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo   Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo   Âº                                                              Âº
+echo   Âº   ===== TAREA COMPLETADA! GRACIAS POR USAR WIN7USB! =====    Âº
+echo   Âº                                                              Âº
+echo   ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 ping -n 2 localhost>nul
 color 0d
@@ -380,11 +380,11 @@ MODE CON: COLS=68 LINES=8
 title Saliendo == WIN7USB
 cls
 echo.
-echo   ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
-echo   º                                                              º
-echo   º             ===== GRACIAS POR USAR WIN7USB! =====            º
-echo   º                                                              º
-echo   ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+echo   Ã‰ÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ»
+echo   Âº                                                              Âº
+echo   Âº             ===== GRACIAS POR USAR WIN7USB! =====            Âº
+echo   Âº                                                              Âº
+echo   ÃˆÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÃÂ¼
 echo.
 ping -n 4 localhost>nul
 exit
