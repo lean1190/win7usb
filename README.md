@@ -1,7 +1,7 @@
 win7usb
 =======
 
-A simple batch tool to create a windows7 bootable pendrive
+A simple batch tool to create a windows7 bootable pendrive, THAT WORKS!
 
 Requirements:
 -------------
